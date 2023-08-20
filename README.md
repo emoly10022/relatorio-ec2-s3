@@ -17,45 +17,45 @@ Serviço SSH para a comunicação
 
 ## Metódos 
 
-Começaremos entrgando na conta da AWS e escolhendo o serviço EC2 para criar a instância 
+Começaremos entrando na conta da AWS e escolhendo o serviço EC2 para criar a instância.
 
-![Alt text](tela-inicial.png)
+![Alt text](./img/tela-inicial.png)
 
-Já na página de recursos, escolhemos a opção "Instâncias" para entrar na página de visualização
+Já na página de recursos, escolhemos a opção "Instâncias" para entrar na página de visualização.
 
-![Alt text](instancia.png)
+![Alt text](./img/instancia.png)
 
-Depois clicamos em "Executar Instâcia", onde seremos direcionados a página de criação.
+Depois clicamos em "Executar Instâcia", onde seremos direcionados à página de criação.
 
-![Alt text](PAG1.png)
+![Alt text](./img/PAG1.png)
 
 Nessa parte vamos dar nome e escolher a configuração da nossa instância:
 
-![Alt text](<Captura de tela 2023-08-09 155808.png>)
+![Alt text](<./img/Captura de tela 2023-08-09 155808.png>)
 
-Aqui escolhemos uma Amazon Machine Image, usaremos a Amazon Linux
+Aqui escolhemos uma Amazon Machine Image, usaremos a Amazon Linux.
 
-![Alt text](ami.png)
+![Alt text](./img/ami.png)
 
-E logo em seguida o tipo instância, vamos optar pela configuração de máquina que melhor atenda as demandas computacionais, para essa tarefa, escolhendo a t1.micro. Cada uma dessas opções do tipo de instância é otimizada para atender a determinados cenários e requisitos específicos.
+E logo em seguida o tipo instância, vamos optar pela configuração de máquina que melhor atenda as demandas computacionais, para essa tarefa, escolhemos a t1.micro. Cada uma das opções do tipo de instância é otimizada para atender a determinados cenários e requisitos específicos.
 
-![Alt text](escolha-da-instancia.png)
+![Alt text](./img/escolha-da-instancia.png)
 
 Em seguida, clicamos em "Criar par de chaves", essa etapa serve para que possamos nos conectar a nossa instância com segurança.  O formato de arquivo escolhido foi o .pem pois é compatível com o OpenSSH. 
 
-![Alt text](criando-chave-usar-ppk.png)
+![Alt text](./img/criando-chave-usar-ppk.png)
 
-Por fim, deixamos as outras configurações que vem por padrão e clicamos em "Executar Instância"
+Por fim, deixamos as outras configurações que vem por padrão e clicamos em "Executar Instância".
 
-![Alt text](botao-executar.png)
+![Alt text](./img/botao-executar.png)
 
-Execução sendo iniciada com sucesso
+Execução sendo iniciada com sucesso.
 
-![Alt text](execu%C3%A7%C3%A3o-iniciando-inctancia.png)
+![Alt text](./img/execu%C3%A7%C3%A3o-iniciando-inctancia.png)
 
-Indo para a instância criada podemos ver o resumo das configurações escolhidas, onde podemos editá-las
+Indo para a instância criada podemos ver o resumo das configurações escolhidas, onde podemos editá-las.
 
-![Alt text](executada.png)
+![Alt text](./img/executada.png)
 
 Mais abaixo temos algumas funcionalidades, como: 
 
@@ -73,16 +73,16 @@ Mais abaixo temos algumas funcionalidades, como:
 
 - e por fim as tags, que contém todas que seram utilizadas no sistema.
 
-![Alt text](detalhes.png)
+![Alt text](./img/detalhes.png)
 
-Nessa parte, vamos solicitar a conexão com a instância criada
+Nessa parte, vamos solicitar a conexão com a instância criada.
 
-![Alt text](conexao.png)
+![Alt text](./img/conexao.png)
 
 
-Aqui estamos acessando a maquina pela conexão SSH
+Aqui estamos acessando a maquina pela conexão SSH.
 
-![Alt text](acessando-a-maquina-com-ssh.png)
+![Alt text](./img/acessando-a-maquina-com-ssh.png)
 
 ## Resultados
 
